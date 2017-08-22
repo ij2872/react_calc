@@ -5,3 +5,5 @@
 
 ## Demo
 [Click here to use the app!](https://ij2872.github.io/web_portf/#/calculator)
+
+<img src="img/calc.png" width="250">
