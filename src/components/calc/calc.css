@@ -1,3 +1,7 @@
+
+body{
+    background-color: #616161;
+}
 .calculator{
     width: 350px;
     height: 500px;
@@ -32,11 +36,37 @@
     text-align: center;
     padding: 20px;
     border: 1px solid #8C8C8C;
-
+    font-size: 1.5em;
 
     user-select: none;
     cursor: pointer;
 }
 .btn:active{
     background-color: #C7C7C7;
+}
+
+.orange{
+    background-color: #e68600 ;
+    color: white;
+}
+.orange:active{
+    background-color: #b36800 ;
+    
+}
+.grey{
+    background-color: #BBBBBB;
+}
+
+#zero{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 0 0 0 5px;
+}
+
+#decimal{
+    font-size: 1.8em;
+}
+
+#equals{
+    border-radius: 0 0 5px 0;
 }
