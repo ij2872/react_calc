@@ -6,20 +6,23 @@ class componentName extends Component {
     constructor(props){
         super(props);
         this.state ={
-            displayValue: "1241241241",
+            displayValue: "0",
             prevValue: ""
         };
 
     }
 
     clearDisplay(){
-        this.setState({displayValue: ""});
+        this.setState({displayValue: "0"});
     }
     
     addDigit(digit){
         const {displayValue} = this.state;
+        // Limit amount of input to displayValue
         if(displayValue.length < 9){
-            this.setState({displayValue: displayValue + digit});
+            console.log("doing");
+            this.setState({
+                displayValue: displayValue === "0" ? digit : displayValue + digit});
         }
         
     }
