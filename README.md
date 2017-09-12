@@ -1,6 +1,5 @@
 # React Calculator
 
----
 
 ###### A calculator web app built on React JS.
 
