@@ -3,12 +3,16 @@
 
 ### Installing
 
+Make sure that you have [Node.Js](http://nodejs.org/) installed.
+
 ```sh
 git clone https://github.com/ij2872/react_calc
 cd react_calc
 npm install
 npm start
 ```
+The app should be running on [localhost:3000](http://localhost:3000/).
+
 
 [Click Here](https://github.com/ij2872/react_calc/tree/master/src/components/calc) to view the component source file.
 
